@@ -4,6 +4,7 @@ import secrets
 
 class MinimakePassword:
     """Generates pseudo-random string"""
+
     def __init__(self):
         self._punctuation_no_semic = string.punctuation.replace(";", "")
         self._alphabet = (

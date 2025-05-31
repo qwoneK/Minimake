@@ -35,7 +35,6 @@ class MinimakeEmail:
     def domain_maker(self, new_value):
         self._domain = new_value
 
-
     def final_email(self):
         finalic = f"{self.rand_email()}{self.picker}{self.domain}"
         return finalic

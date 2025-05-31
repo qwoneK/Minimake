@@ -4,6 +4,7 @@ import string
 
 class MinimakeUser:
     """Generates random String"""
+
     def __init__(self, str_length=5):
         self._str_length = str_length
 

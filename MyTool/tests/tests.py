@@ -59,5 +59,3 @@ class TestMinimakeEmail(unittest.TestCase):
         finalise = email.final_email()
         comparitor = email.rand_email()
         self.assertNotEqual(finalise, comparitor)
-
-        
