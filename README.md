@@ -17,3 +17,9 @@ $ python -m my_mini minimake -e yahoo.ie
 1. Use pylint (reasonably)
 2. This project also uses black autoformatter
 3. Submit new suggestions/features via Pull Request
+
+# To run the black python formatter:
+```
+$ black my_mini
+$ black tests
+```
