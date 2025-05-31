@@ -28,7 +28,7 @@ class MinimakePassword:
 
     def randomiser(self):
         while True:
-            password = "".join(secrets.choice(self._alphabet) for i in range(10))
+            password = "".join(secrets.choice(self._alphabet) for i in range(12))
             if (
                 any(c.islower() for c in password)
                 and any(c.isupper() for c in password)

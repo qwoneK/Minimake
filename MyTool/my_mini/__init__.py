@@ -10,7 +10,7 @@ usr_output = usr.usernamer()
 pswd = MinimakePassword()
 pass_output = pswd.randomiser()
 
-mail = MinimakeEmail(rand_email=10, str_length=10, picker="", domain="")
+mail = MinimakeEmail(rand_email=12, str_length=12, picker="", domain="")
 final_email = mail.final_email()
 
 parser = argparse.ArgumentParser()
