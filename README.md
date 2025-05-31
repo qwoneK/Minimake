@@ -4,7 +4,7 @@ This is an account detail generator tool
 # How to use the CLI
 Without default
 ```
-python -m my_mini minimake 
+$ python -m my_mini minimake 
 ```
 
 With domain 
