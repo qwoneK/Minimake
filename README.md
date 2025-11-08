@@ -1,5 +1,6 @@
 This is an account detail generator tool
 * Generates passwords, usernames and emails!
+* Use bash (scripts/aliases) to shorten command while project is in beta.
 
 # How to use the CLI
 Without default
